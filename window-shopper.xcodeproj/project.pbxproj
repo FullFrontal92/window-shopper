@@ -14,6 +14,8 @@
 		3D687632203B20E10067B661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D687630203B20E10067B661 /* LaunchScreen.storyboard */; };
 		3D68763C203B2AFC0067B661 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68763B203B2AFC0067B661 /* CurrencyTxtField.swift */; };
 		3D9BB7B1203DF1D100A7D2F9 /* window_shopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BB7B0203DF1D100A7D2F9 /* window_shopperTests.swift */; };
+		3D9BB7BD203DF87F00A7D2F9 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BB7BC203DF87F00A7D2F9 /* Wage.swift */; };
+		3D9BB7BE203DF9FC00A7D2F9 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BB7BC203DF87F00A7D2F9 /* Wage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 		3D9BB7AE203DF1D100A7D2F9 /* window-shopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "window-shopperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9BB7B0203DF1D100A7D2F9 /* window_shopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = window_shopperTests.swift; sourceTree = "<group>"; };
 		3D9BB7B2203DF1D200A7D2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9BB7BC203DF87F00A7D2F9 /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		3D687626203B20E10067B661 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				3D9BB7BB203DF35F00A7D2F9 /* Models */,
 				3D68763A203B2A260067B661 /* Views */,
 				3D687639203B27BA0067B661 /* Controller */,
 				3D687627203B20E10067B661 /* AppDelegate.swift */,
@@ -113,6 +117,14 @@
 				3D9BB7B2203DF1D200A7D2F9 /* Info.plist */,
 			);
 			path = "window-shopperTests";
+			sourceTree = "<group>";
+		};
+		3D9BB7BB203DF35F00A7D2F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D9BB7BC203DF87F00A7D2F9 /* Wage.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D68763C203B2AFC0067B661 /* CurrencyTxtField.swift in Sources */,
+				3D9BB7BD203DF87F00A7D2F9 /* Wage.swift in Sources */,
 				3D68762A203B20E10067B661 /* MainVC.swift in Sources */,
 				3D687628203B20E10067B661 /* AppDelegate.swift in Sources */,
 			);
@@ -229,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9BB7B1203DF1D100A7D2F9 /* window_shopperTests.swift in Sources */,
+				3D9BB7BE203DF9FC00A7D2F9 /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
